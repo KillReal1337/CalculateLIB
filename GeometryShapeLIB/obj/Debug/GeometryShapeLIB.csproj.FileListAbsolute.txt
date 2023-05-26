@@ -1,0 +1,6 @@
+C:\Users\Kirill Andreevich\source\repos\TestAssignment\GeometryShapeLIB\bin\Debug\GeometryShapeLIB.dll
+C:\Users\Kirill Andreevich\source\repos\TestAssignment\GeometryShapeLIB\bin\Debug\GeometryShapeLIB.pdb
+C:\Users\Kirill Andreevich\source\repos\TestAssignment\GeometryShapeLIB\obj\Debug\GeometryShapeLIB.csproj.AssemblyReference.cache
+C:\Users\Kirill Andreevich\source\repos\TestAssignment\GeometryShapeLIB\obj\Debug\GeometryShapeLIB.csproj.CoreCompileInputs.cache
+C:\Users\Kirill Andreevich\source\repos\TestAssignment\GeometryShapeLIB\obj\Debug\GeometryShapeLIB.dll
+C:\Users\Kirill Andreevich\source\repos\TestAssignment\GeometryShapeLIB\obj\Debug\GeometryShapeLIB.pdb
