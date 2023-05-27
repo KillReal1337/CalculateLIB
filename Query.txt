@@ -1,0 +1,24 @@
+CREATE TABLE Products (
+    ProductId INT PRIMARY KEY,
+    ProductName VARCHAR(50)
+);
+
+CREATE TABLE Categories (
+    CategoryId INT PRIMARY KEY,
+    CategoryName VARCHAR(50)
+);
+
+CREATE TABLE ProductCategories (
+    ProductId INT,
+    CategoryId INT,
+    PRIMARY KEY (ProductId, CategoryId),
+    FOREIGN KEY (ProductId) REFERENCES Products(ProductId),
+    FOREIGN KEY (CategoryId) REFERENCES Categories(CategoryId)
+);
+
+
+
+SELECT Products.ProductName, Categories.CategoryName
+FROM Products
+INNER JOIN ProductCategories ON Products.ProductId = ProductCategories.ProductId
+INNER JOIN Categories ON ProductCategories.CategoryId = Categories.CategoryId;
